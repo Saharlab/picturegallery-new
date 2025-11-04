@@ -10,7 +10,7 @@ jobs:
     name: Semgrep 
     runs-on: ubuntu-latest 
     container:
-      image: eturntocorp/semgrep
+      image: returntocorp/semgrep
     steps:
       - name: checkcode 
         uses: actions/checkout@v3 
